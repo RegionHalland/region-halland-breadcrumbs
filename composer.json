@@ -1,0 +1,13 @@
+{
+    "name": "regionhalland/region-halland-breadcrumbs",
+    "description": "Front-end-plugin för breadcrumbs",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roland Hydén",
+            "email": "Roland.Hyden@Regionhalland.se"
+        }
+    ],
+    "require": {}
+}
