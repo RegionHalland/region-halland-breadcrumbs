@@ -89,5 +89,8 @@ array (size=3)
 
 ## Versionhistorik
 
+### 1.0.1
+- Tagit bort blankspace
+
 ### 1.0.0
 - Första version
