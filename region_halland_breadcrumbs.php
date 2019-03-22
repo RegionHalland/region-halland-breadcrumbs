@@ -6,16 +6,22 @@
 	/*
 	Plugin Name: Region Halland Breadcrumbs
 	Description: Front-end-plugin för breadcrumb
-	Version: 1.0.1
+	Version: 1.2.0
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: region_halland_breadcrumbs
 	*/
 
 	// Returnera en array med breadcrumbs-info
-	function get_region_halland_breadcrumbs()
+	function get_region_halland_breadcrumbs($home = '')
 	{
 		
+		if ($home = '') {
+			$home_name = get_bloginfo('name');
+		} else {
+			$home_name = $home;
+		}
+
 		// Wordpress funktion för aktuell post
 		global $post;
 
@@ -31,7 +37,7 @@
 		$post_type = get_post_type_object($post->post_type);
 		
 		// Lägg till första posten i arrayen med breadcrumbs
-		$breadcrumbs = addBreadcrumb(array(), get_bloginfo('name'), get_home_url());
+		$breadcrumbs = addBreadcrumb(array(), $home_name, get_home_url());
 
 		// Om det är en arkiverad post
 		if (is_single() && $post_type->has_archive) {

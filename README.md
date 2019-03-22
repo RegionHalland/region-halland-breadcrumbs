@@ -69,6 +69,20 @@ OBS! Justera så att du hämtar aktuell version.
 ```
 
 
+## Ändra "hem-namnet"
+
+```sh
+
+Man kan även ange vad hem-namnet ska vara, default är sitens namn:
+
+@php($myBreadcrumbs = get_region_halland_breadcrumbs()) 
+Detta ger "sitens namn - osv..."
+
+@php($myBreadcrumbs = get_region_halland_breadcrumbs('Start')) 
+Detta ger "Start - osv..."
+```
+
+
 ## Exempel på hur arrayen kan se ut
 
 ```sh
@@ -88,6 +102,9 @@ array (size=3)
 ```
 
 ## Versionhistorik
+
+### 1.2.0
+- Valfritt hem-namn, default är sitens namn
 
 ### 1.0.1
 - Tagit bort blankspace
