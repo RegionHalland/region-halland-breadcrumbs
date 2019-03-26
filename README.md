@@ -103,6 +103,9 @@ array (size=3)
 
 ## Versionhistorik
 
+### 1.1.1
+- Justerad if-sats
+
 ### 1.1.0
 - Valfritt hem-namn, default är sitens namn
 
