@@ -103,7 +103,7 @@ array (size=3)
 
 ## Versionhistorik
 
-### 1.2.0
+### 1.1.0
 - Valfritt hem-namn, default är sitens namn
 
 ### 1.0.1

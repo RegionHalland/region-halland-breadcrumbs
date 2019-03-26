@@ -6,7 +6,7 @@
 	/*
 	Plugin Name: Region Halland Breadcrumbs
 	Description: Front-end-plugin för breadcrumb
-	Version: 1.2.0
+	Version: 1.1.0
 	Author: Roland Hydén
 	License: MIT
 	Text Domain: region_halland_breadcrumbs
