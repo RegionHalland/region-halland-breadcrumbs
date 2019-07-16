@@ -112,6 +112,9 @@ array (size=3)
 
 ## Versionhistorik
 
+### 1.2.1
+- Korrigerat versionsnummer
+
 ### 1.2.0
 - Uppdaterat med information om licensmodell
 - Bifogat fil med licensmodell
